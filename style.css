@@ -16,13 +16,20 @@ nav {
     text-align: right;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .link {
     color: black;
     font-size: 0.8em;
     margin: 0 8px;
     position: relative;
     bottom: 12px;
-    text-decoration: none;
 }
 
 nav a img {
@@ -41,7 +48,7 @@ nav a img {
     margin-left: 5px;
 }
 
-.searchbar input {
+input {
     min-width: 480px;
     max-width: 550px;
     width: 30%;
@@ -58,15 +65,60 @@ nav a img {
     font-weight: 100;
 }
 
-.searchbar input:hover {
+input:hover, input:focus {
     box-shadow: 1px 1px 5px rgb(209, 209, 209);
 }
 
-.searchbutton button {
-    margin: 30px 5px;
-    padding: 10px 15px;
+button {
+    margin: 28px 5px;
+    padding: 9px 16px;
     font-size: 0.9em;
-    color: black;
+    color: rgb(120, 120, 120);
     background-color: rgb(240, 240, 240);
+    border-radius: 4px;
 }
 
+button:hover {
+    color: rgb(20, 20, 20);
+    border: 1px solid rgb(200, 200, 200);
+    margin: 27px 4px;
+    box-shadow: 0 0 1px rgb(200, 200, 200);
+}
+
+footer {
+    width: 100%;
+    height: 82px;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    bottom: 0;
+}
+
+footer div {
+    height: 40px;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding: 0px 18px;
+}
+
+.location span {
+    display: inline-block;
+    font-size: 0.9em;
+    color: rgb(120, 120, 120);
+    padding: 12px 12px;
+}
+
+.refer a {
+    display: inline-block;
+    font-size: 0.815em;
+    color: rgb(120, 120, 120);
+    padding: 12px 12px;
+}
+
+.left, .right {
+    display: inline-block;
+    border: none;
+    padding: none;
+}
+
+.right {
+    float: right;
+}
