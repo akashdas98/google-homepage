@@ -25,7 +25,6 @@ a:hover {
 }
 
 .link {
-    display: inline-block;
     color: black;
     font-size: 0.8em;
     margin: 0 8px;
@@ -101,6 +100,7 @@ footer div {
 }
 
 .location span {
+    display: inline-block;
     font-size: 0.9em;
     color: rgb(120, 120, 120);
     padding: 12px 12px;
